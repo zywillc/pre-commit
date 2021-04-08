@@ -34,4 +34,4 @@ export MAVEN_OPTS="-client
   -XX:TieredStopAtLevel=1
   -Xverify:none";
 
-mvn -q -pl "$modules_arg" checkstyle:check
+mvn -pl "$modules_arg" checkstyle:check
