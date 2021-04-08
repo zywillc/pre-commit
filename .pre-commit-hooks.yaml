@@ -1,0 +1,6 @@
+-   id: check-style
+    name: mvn check style
+    description: mvn check style
+    entry: check-style.sh
+    language: script
+    types: [java]
